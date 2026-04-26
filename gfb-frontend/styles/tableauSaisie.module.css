@@ -1,0 +1,160 @@
+.wrapper {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.table th {
+  background: #f9fafb;
+  color: #6b7280;
+  font-weight: 500;
+  padding: 6px 8px;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.table td {
+  border: 1px solid #e5e7eb;
+  padding: 2px 4px;
+  text-align: center;
+}
+
+.thAnnee {
+  min-width: 80px;
+}
+.thAction {
+  width: 36px;
+}
+
+.inputAnnee {
+  width: 72px;
+  padding: 4px 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  text-align: center;
+  background: #fff;
+  color: #111827;
+}
+
+.inputValeur {
+  width: 60px;
+  padding: 4px 4px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  text-align: center;
+  background: transparent;
+  color: #111827;
+  transition: border-color 0.15s;
+}
+
+.inputValeur:focus {
+  outline: none;
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.inputValeur::placeholder {
+  color: #d1d5db;
+}
+
+.btnDelete {
+  background: none;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-size: 0.75rem;
+  padding: 4px;
+  border-radius: 4px;
+}
+.btnDelete:hover {
+  background: #fef2f2;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  gap: 8px;
+}
+
+.btnPrimary {
+  padding: 8px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btnPrimary:hover {
+  background: #1d4ed8;
+}
+.btnPrimary:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+.btnSecondary {
+  padding: 7px 14px;
+  background: #fff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btnSecondary:hover {
+  background: #f9fafb;
+}
+
+.erreur {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}
+
+.succes {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  margin-bottom: 0.75rem;
+}

@@ -8,6 +8,6 @@ import { CaMensuelController } from './ca-mensuel.controller';
   imports: [TypeOrmModule.forFeature([CaMensuel])],
   controllers: [CaMensuelController],
   providers: [CaMensuelService],
-  exports: [CaMensuelService], // Pour que la Personne 2 puisse l'utiliser
+  exports: [CaMensuelService],
 })
 export class CaMensuelModule {}

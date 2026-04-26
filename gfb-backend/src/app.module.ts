@@ -28,7 +28,6 @@ import databaseConfig from './config/database.config';
       }),
       inject: [ConfigService],
     }),
-
     CaMensuelModule,
   ],
 })
